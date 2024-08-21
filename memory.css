@@ -1,0 +1,31 @@
+#playground {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+#playground > button {
+    aspect-ratio: 1;
+}
+
+img {
+    visibility: hidden;
+    scale: 150%;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.invisible{
+    background-image: none;
+}
+
+.matched {
+    background-color: green;
+}
+
+button {
+    background-image: url("https://wallpapercave.com/wp/wp2866512.jpg");
+    background-size: 100% 100%;
+}
